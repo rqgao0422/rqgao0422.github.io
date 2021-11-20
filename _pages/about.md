@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: <a href="#">Affiliations</a>. IIIS, Tsinghua University. 
 emails: <a href="#">Email(s)</a>. grq18 [at] mails [dot] tsinghua [dot] edu [dot] cn (will be expired next year) or rqgao0422 [at] gmail [dot] com
