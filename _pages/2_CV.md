@@ -1,9 +1,8 @@
 ---
-layout: About
-title: About
+layout: about
+title: CV
 permalink: /
-description: <a href="#">Affiliations</a>. IIIS, Tsinghua University. 
-emails: <a href="#">Email(s)</a>. grq18 [at] mails [dot] tsinghua [dot] edu [dot] cn
+description: 
 
 profile:
   align: right
