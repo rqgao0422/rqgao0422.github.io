@@ -10,9 +10,10 @@ layout: default
 
   <article>
     {% if page.file %}
-        path: {{ page.file | prepend: 'assets/' }}
+    <link rel="stylesheet" href="{{'/assets/'} {page.file} | relative_url }}">
+    {% else %}
+        {{ content }}
     {% endif %}
-    {{ content }}
   </article>
 
 </div>
