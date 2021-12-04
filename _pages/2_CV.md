@@ -1,9 +1,9 @@
 ---
 order: 2
 layout: page
-title: CV
 permalink: /cv/
-
+title: CV
 file: pdf/CV.pdf
+nav: true
 ---
 
