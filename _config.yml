@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Ruiquan Gao (Still Under Construction) # the website title (if blank, full name will be used instead)
+title: Ruiquan Gao # the website title (if blank, full name will be used instead)
 first_name: Ruiquan
 middle_name: 
 last_name: Gao
@@ -14,7 +14,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-icon:     # the emoji used as the favicon
+icon:      # the emoji used as the favicon
 url: https://rqgao0422.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -79,9 +79,9 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name:   # your blog must have a name for it to show up in the nav bar
-blog_description: 
-permalink: /blog/:year/:title/
+# blog_name:   # your blog must have a name for it to show up in the nav bar
+# blog_description: 
+# permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
