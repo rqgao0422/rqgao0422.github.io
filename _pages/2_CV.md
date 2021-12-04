@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: CV
 title: CV
 permalink: /
 description: 
