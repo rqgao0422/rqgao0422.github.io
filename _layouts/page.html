@@ -9,11 +9,7 @@ layout: default
   </header>
 
   <article>
-    {% if page.file %}
-    <link rel="stylesheet" href="{{'/assets/'} {page.file} | relative_url }}">
-    {% else %}
-        {{ content }}
-    {% endif %}
+      {{ content }}
   </article>
 
 </div>
