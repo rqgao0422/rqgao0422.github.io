@@ -2,8 +2,9 @@
 order: 2
 layout: page
 permalink: /cv/
-title: [CV](../assets/pdf/CV.pdf)
+title: CV
 # file: pdf/CV.pdf
 nav: true
 ---
 
+Please download my curriculum vitae [here](../assets/pdf/CV.pdf).
