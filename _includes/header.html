@@ -65,14 +65,6 @@
           {% endif %}
           {% endif %}
           {% endfor %}
-          {% if site.enable_darkmode %}
-            <div class = "toggle-container">
-              <a id = "light-toggle">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-              </a>
-            </div>
-          {% endif %}
           <!-- Blog -->
           {% if site.blog_name %}
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
@@ -83,6 +75,14 @@
               {% endif %}
             </a>
           </li>
+          {% endif %}
+          {% if site.enable_darkmode %}
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
           {% endif %}
         </ul>
       </div>
