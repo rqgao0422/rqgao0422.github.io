@@ -9,6 +9,9 @@ layout: default
   </header>
 
   <article>
+    {% if page.file %}
+        path: {{ page.file | prepend: 'assets/' }}
+    {% endif %}
     {{ content }}
   </article>
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Courses/
+permalink: /courses/
 title: Courses
 description: Selected courses I have taken in Tsinghua
 nav: true

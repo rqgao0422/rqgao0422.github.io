@@ -1,9 +1,8 @@
 ---
-layout: cv
+layout: page
 title: CV
 permalink: /
 
-Profile:
-  image: CV.pdf
+file: pdf/CV.pdf
 ---
 
