@@ -7,4 +7,4 @@ title: CV
 nav: true
 ---
 
-Please download my curriculum vitae [here](../assets/pdf/CV.pdf).
+You can find my curriculum vitae [here](../assets/pdf/CV.pdf).
