@@ -1,4 +1,5 @@
 ---
+order: 3
 layout: page
 permalink: /publications/
 title: Publications

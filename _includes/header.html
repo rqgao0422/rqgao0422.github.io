@@ -31,19 +31,8 @@
               {% endif %}
             </a>
           </li>
-          <!-- Blog -->
-          {% if site.blog_name %}
-          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
-              Blog
-              {% if page.title == "blog" %}
-              <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-          </li>
-          {% endif %}
           <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %}
+          {% assign sorted_pages = site.pages | sort: "order" %}
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           {% if p.dropdown %}
@@ -83,6 +72,17 @@
                   <i class="fas fa-sun"></i>
               </a>
             </div>
+          {% endif %}
+          <!-- Blog -->
+          {% if site.blog_name %}
+          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
+              Blog
+              {% if page.title == "blog" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
           {% endif %}
         </ul>
       </div>

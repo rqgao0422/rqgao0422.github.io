@@ -1,7 +1,8 @@
 ---
+order: 2
 layout: page
 title: CV
-permalink: /
+permalink: /cv/
 
 file: pdf/CV.pdf
 ---
