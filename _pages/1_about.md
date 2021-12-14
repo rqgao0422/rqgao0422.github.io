@@ -8,6 +8,7 @@ emails: <a href="#">Email</a>. grq18 [at] mails [dot] tsinghua [dot] edu [dot] c
 
 profile:
   align: right
+  image: 2018011383.jpg
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
