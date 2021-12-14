@@ -4,11 +4,13 @@ layout: about
 title: About
 permalink: /
 description: <a href="#">Affiliations</a>. IIIS, Tsinghua University. 
-emails: <a href="#">Email</a>. grq18 [at] mails [dot] tsinghua [dot] edu [dot] cn
+# emails: <a href="#">Email</a>. grq18 [at] mails [dot] tsinghua [dot] edu [dot] cn
 
 profile:
   align: right
   image: 2018011383.jpg
+  address: >
+    <p> Email: grq18 [at] mails.tsinghua.edu.cn </p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
