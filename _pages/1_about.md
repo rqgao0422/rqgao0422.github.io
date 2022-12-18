@@ -8,7 +8,7 @@ description: <a href="#">Affiliations</a>. Computer Science, Stanford University
 
 profile:
   align: right
-  image: 2018011383.jpg
+  image: 2018011383.png
   address: >
     <smallp><a href="#">Email.</a> ruiquan[at]cs.stanford.edu</smallp>
 
