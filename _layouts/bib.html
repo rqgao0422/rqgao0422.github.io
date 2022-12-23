@@ -109,7 +109,7 @@
       {% endif %}
     {% endif %}
     {% if entry.full %}
-      {% if entry.pdf contains '://' %}
+      {% if entry.full contains '://' %}
       <a href="{{ entry.full }}" class="btn btn-sm z-depth-0" role="button">Full</a>
       {% else %}
       <a href="{{ entry.full | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Full</a>
