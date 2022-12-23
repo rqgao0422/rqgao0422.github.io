@@ -10,7 +10,7 @@ profile:
   align: right
   image: 2018011383.png
   address: >
-    <smallp><a href="#">Email.</a> ruiquan[at]cs.stanford.edu</smallp>
+    <smallp><a href="#">Email.</a> ruiquan[at]cs[dot]stanford[dot]edu</smallp>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
