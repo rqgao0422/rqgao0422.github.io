@@ -1,16 +1,32 @@
 "He":
-  - firstname: ["Zhongtian", "Z."]
+  - firstname: ["Zhongtian"]
     url: https://sites.google.com/view/zhongtianhe
 
 "Huang":
-  - firstname: ["Zhiyi", "Z."]
+  - firstname: ["Zhiyi"]
     url: https://i.cs.hku.hk/~zhiyi/
 
 "Nie":
-  - firstname: ["Zipei", "Z."]
+  - firstname: ["Zipei"]
 
 "Yuan":
-  - firstname: ["Bijun", "B."]
+  - firstname: ["Bijun"]
 
 "Zhong":
-  - firstname: ["Yan", "Y."]
+  - firstname: ["Yan"]
+
+"Rubinstein":
+  - firstname: ["Aviad", "A."]
+    url: https://cs.stanford.edu/~aviad/
+
+"Zhang":
+  - firstname: ["Qianfan"]
+    url: https://zhangqian.fan/
+
+"Budish":
+  - firstname: ["Eric"]
+    url: https://ericbudish.org/
+
+"Othman":
+  - firstname: ["Abraham"]
+    url: https://aothman.wpengine.com/
