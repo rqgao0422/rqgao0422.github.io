@@ -1,17 +1,30 @@
 ---
 ---
 
-@article{GaoHHNYZ:FOCS:2021,
-  abbr={FOCS 2021},
-  abstract={This paper studies the online correlated selection (OCS) problem. It was introduced by Fahrbach, Huang, Tao, and Zadimoghaddam (2020) to obtain the first edge-weighted online bipartite matching algorithm that breaks the $0.5$ barrier. Suppose that we receive a pair of elements in each round and immediately select one of them. Can we select with negative correlation to be more effective than independent random selections? Our contributions are threefold. For semi-OCS, which considers the probability that an element remains unselected after appearing in $k$ rounds, we give an optimal algorithm that minimizes this probability for all $k$. It leads to $0.536$-competitive unweighted and vertex-weighted online bipartite matching algorithms that randomize over only two options in each round, improving the $0.508$-competitive ratio by Fahrbach et al. (2020). Further, we develop the first multi-way semi-OCS that allows an arbitrary number of elements with arbitrary masses in each round. As an application, it rounds the Balance algorithm in unweighted and vertex-weighted online bipartite matching and is $0.593$-competitive. Finally, we study OCS, which further considers the probability that an element is unselected in an arbitrary subset of rounds. We prove that the optimal "level of negative correlation" is between $0.167$ and $0.25$, improving the previous bounds of $0.109$ and $1$ by Fahrbach et al. (2020). Our OCS gives a $0.519$-competitive edge-weighted online bipartite matching algorithm, improving the previous $0.508$-competitive ratio by Fahrbach et al. (2020).},
-  title={Improved Online Correlated Selection},
+
+@article{AnariGR:STOC:2024,
+  abbr={STOC 2024},
+  abstract={We show how to use parallelization to speed up sampling from an arbitrary distribution $\mu$ on a product space $[q]^n$, given oracle access to counting queries: $\mathbb{P}_{X\sim \mu}[X_S=\sigma_S]$ for any $S\subseteq [n]$ and $\sigma_S \in [q]^S$. Our algorithm takes $O({n^{2/3}\cdot polylog(n,q)})$ parallel time, to the best of our knowledge, the first sublinear in $n$ runtime for arbitrary distributions. Our results have implications for sampling in autoregressive models. Our algorithm directly works with an equivalent oracle that answers conditional marginal queries $\mathbb{P}_{X\sim \mu}[X_i=\sigma_i\;\vert\; X_S=\sigma_S]$, whose role is played by a trained neural network in autoregressive models. This suggests a roughly $n^{1/3}$-factor speedup is possible for sampling in any-order autoregressive models. We complement our positive result by showing a lower bound of $\widetilde{\Omega}(n^{1/3})$ for the runtime of any parallel sampling algorithm making at most $poly(n)$ queries to the counting oracle, even for $q=2$.},
+  title={Parallel Sampling via Counting},
   ibtex_show={true},
-  author={Gao, Ruiquan and He, Zhongtian and Huang, Zhiyi and Nie, Zipei and Yuan, Bijun and Zhong, Yan},
-  year={2021},
-  pdf={improved_online_correlated_selection.pdf},
-  journal={Proceedings of the 62nd IEEE Annual Symposium on Foundations of Computer Science,  },
-  talk={https://www.youtube.com/watch?v=cD91n14IlUA&list=PLXrDGj9O32r2u4n1S5kgcCj-l3QKpKNG3&index=2}
+  author={Anari, Nima and Gao, Ruiquan and Rubinstein, Aviad},
+  year={2024},
+  journal={Proceedings of the 56th Annual ACM Symposium on Theory of Computing (to appear),  }
 },
+
+
+@article{CharikarG:SODA:2024,
+  abbr={SODA 2024},
+  abstract={We study the Ultrametric Violation Distance problem introduced by Cohen-Addad, Fan, Lee, and Mesmay [FOCS, 2022]. Given pairwise distances $x$ as input, the goal is to modify the minimum number of distances so as to make it a valid ultrametric. In other words, this is the problem of fitting an ultrametric to given data, where the quality of the fit is measured by the $L0$ norm of the error; variants of the problem for the $L\infty$ and $L1$ norms are well-studied in the literature. Our main result is a 5-approximation algorithm for Ultrametric Violation Distance, improving the previous best large constant factor ($\geq 1000$) approximation algorithm. We give an $O(min\{L,log n\})$-approximation algorithm for weighted Ultrametric Violation Distance where the weights satisfy triangle inequality and $L$ is the number of distinct values in the input. We also give a $16$-approximation algorithm for the problem on $k$-partite graphs, where the input is specified on pairs of vertices that form a complete $k$-partite graph. All our results use a unified algorithmic framework with small modifications for the three cases.},
+  title={Improved Approximations for Ultrametric Violation Distance},
+  ibtex_show={true},
+  author={Charikar, Moses and Gao, Ruiquan},
+  year={2024},
+  journal={Proceedings of the 2024 {ACM-SIAM} Symposium on Discrete Algorithms,  },
+  pdf={ultrametric_violation_distance.pdf}
+},
+
+
 @article{BudishGORZ:EC:2023,
   abbr={EC 2023},
   abstract={Approximate Competitive Equilibrium from Equal Incomes (A-CEEI) is an equilibrium-based solution concept for fair division of discrete items to agents with combinatorial demands. In theory, it is known that in asymptotically large markets: 1. For incentives, the A-CEEI mechanism is Envy-Free-but-for-Tie-Breaking (EF-TB), which implies that it is Strategyproof-in-the-Large (SP-L). 2. From a computational perspective, computing the equilibrium solution is unfortunately a computationally intractable problem (in the worst-case, assuming PPAD$\neq$ FP). We develop a new heuristic algorithm that outperforms the previous state-of-the-art by multiple orders of magnitude. This new, faster algorithm lets us perform experiments on real-world inputs for the first time. We discover that with real-world preferences, even in a realistic implementation that satisfies the EF-TB and SP-L properties, agents may have surprisingly simple and plausible deviations from truthful reporting of preferences. To this end, we propose a novel strengthening of EF-TB, which dramatically reduces the potential for strategic deviations from truthful reporting in our experiments. A (variant of) our algorithm is now in production: on real course allocation problems it is much faster, has zero clearing error, and has stronger incentive properties than the prior state-of-the-art implementation.},
@@ -22,23 +35,14 @@
   journal={Proceedings of the 24th ACM Conference on Economics and Computation,  },
   pdf={practical_algorithms_and_validated_incentives_for_A_CEEI.pdf}
 },
-@article{CharikarG:SODA:2024,
-  abbr={SODA 2024},
-  abstract={We study the Ultrametric Violation Distance problem introduced by Cohen-Addad, Fan, Lee, and Mesmay [FOCS, 2022]. Given pairwise distances $x$ as input, the goal is to modify the minimum number of distances so as to make it a valid ultrametric. In other words, this is the problem of fitting an ultrametric to given data, where the quality of the fit is measured by the $L0$ norm of the error; variants of the problem for the $L\infty$ and $L1$ norms are well-studied in the literature. Our main result is a 5-approximation algorithm for Ultrametric Violation Distance, improving the previous best large constant factor ($\geq 1000$) approximation algorithm. We give an $O(min\{L,log n\})$-approximation algorithm for weighted Ultrametric Violation Distance where the weights satisfy triangle inequality and $L$ is the number of distinct values in the input. We also give a $16$-approximation algorithm for the problem on $k$-partite graphs, where the input is specified on pairs of vertices that form a complete $k$-partite graph. All our results use a unified algorithmic framework with small modifications for the three cases.},
-  title={Improved Approximations for Ultrametric Violation Distance},
+@article{GaoHHNYZ:FOCS:2021,
+  abbr={FOCS 2021},
+  abstract={This paper studies the online correlated selection (OCS) problem. It was introduced by Fahrbach, Huang, Tao, and Zadimoghaddam (2020) to obtain the first edge-weighted online bipartite matching algorithm that breaks the $0.5$ barrier. Suppose that we receive a pair of elements in each round and immediately select one of them. Can we select with negative correlation to be more effective than independent random selections? Our contributions are threefold. For semi-OCS, which considers the probability that an element remains unselected after appearing in $k$ rounds, we give an optimal algorithm that minimizes this probability for all $k$. It leads to $0.536$-competitive unweighted and vertex-weighted online bipartite matching algorithms that randomize over only two options in each round, improving the $0.508$-competitive ratio by Fahrbach et al. (2020). Further, we develop the first multi-way semi-OCS that allows an arbitrary number of elements with arbitrary masses in each round. As an application, it rounds the Balance algorithm in unweighted and vertex-weighted online bipartite matching and is $0.593$-competitive. Finally, we study OCS, which further considers the probability that an element is unselected in an arbitrary subset of rounds. We prove that the optimal "level of negative correlation" is between $0.167$ and $0.25$, improving the previous bounds of $0.109$ and $1$ by Fahrbach et al. (2020). Our OCS gives a $0.519$-competitive edge-weighted online bipartite matching algorithm, improving the previous $0.508$-competitive ratio by Fahrbach et al. (2020).},
+  title={Improved Online Correlated Selection},
   ibtex_show={true},
-  author={Charikar, Moses and Gao, Ruiquan},
-  year={2024},
-  journal={Proceedings of the 2024 {ACM-SIAM} Symposium on Discrete Algorithms,  },
-  pdf={ultrametric_violation_distance.pdf}
-}
-
-@article{AnariGR:STOC:2024,
-  abbr={STOC 2024},
-  abstract={We show how to use parallelization to speed up sampling from an arbitrary distribution $\mu$ on a product space $[q]^n$, given oracle access to counting queries: $\mathbb{P}_{X\sim \mu}[X_S=\sigma_S]$ for any $S\subseteq [n]$ and $\sigma_S \in [q]^S$. Our algorithm takes $O({n^{2/3}\cdot polylog(n,q)})$ parallel time, to the best of our knowledge, the first sublinear in $n$ runtime for arbitrary distributions. Our results have implications for sampling in autoregressive models. Our algorithm directly works with an equivalent oracle that answers conditional marginal queries $\mathbb{P}_{X\sim \mu}[X_i=\sigma_i\;\vert\; X_S=\sigma_S]$, whose role is played by a trained neural network in autoregressive models. This suggests a roughly $n^{1/3}$-factor speedup is possible for sampling in any-order autoregressive models. We complement our positive result by showing a lower bound of $\widetilde{\Omega}(n^{1/3})$ for the runtime of any parallel sampling algorithm making at most $poly(n)$ queries to the counting oracle, even for $q=2$.},
-  title={Parallel Sampling via Counting},
-  ibtex_show={true},
-  author={Anari, Nima and Gao, Ruiquan and Rubinstein, Aviad},
-  year={2024},
-  journal={Proceedings of the 56th Annual ACM Symposium on Theory of Computing (to appear),  }
+  author={Gao, Ruiquan and He, Zhongtian and Huang, Zhiyi and Nie, Zipei and Yuan, Bijun and Zhong, Yan},
+  year={2021},
+  pdf={improved_online_correlated_selection.pdf},
+  journal={Proceedings of the 62nd IEEE Annual Symposium on Foundations of Computer Science,  },
+  talk={https://www.youtube.com/watch?v=cD91n14IlUA&list=PLXrDGj9O32r2u4n1S5kgcCj-l3QKpKNG3&index=2}
 }
