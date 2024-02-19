@@ -6,7 +6,6 @@
   abbr={STOC 2024},
   abstract={We show how to use parallelization to speed up sampling from an arbitrary distribution $\mu$ on a product space $[q]^n$, given oracle access to counting queries: $\mathbb{P}_{X\sim \mu}[X_S=\sigma_S]$ for any $S\subseteq [n]$ and $\sigma_S \in [q]^S$. Our algorithm takes $O({n^{2/3}\cdot polylog(n,q)})$ parallel time, to the best of our knowledge, the first sublinear in $n$ runtime for arbitrary distributions. Our results have implications for sampling in autoregressive models. Our algorithm directly works with an equivalent oracle that answers conditional marginal queries $\mathbb{P}_{X\sim \mu}[X_i=\sigma_i\;\vert\; X_S=\sigma_S]$, whose role is played by a trained neural network in autoregressive models. This suggests a roughly $n^{1/3}$-factor speedup is possible for sampling in any-order autoregressive models. We complement our positive result by showing a lower bound of $\widetilde{\Omega}(n^{1/3})$ for the runtime of any parallel sampling algorithm making at most $poly(n)$ queries to the counting oracle, even for $q=2$.},
   title={Parallel Sampling via Counting},
-  ibtex_show={true},
   author={Anari, Nima and Gao, Ruiquan and Rubinstein, Aviad},
   year={2024},
   journal={Proceedings of the 56th Annual ACM Symposium on Theory of Computing (to appear),  }
