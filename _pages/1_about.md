@@ -22,4 +22,4 @@ I am a fourth-year Ph.D. student at Computer Science Department, Stanford Univer
 
 Prior to that, I received my B.Eng. from [Yao Class](https://iiis.tsinghua.edu.cn/en/Yao_Class/About_Yao_Class.htm), Institute for Interdisciplinary Information Sciences, Tsinghua University. During that period, I am also fortunate to have worked with Prof. [Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/) at University of Hong Kong.
 
-My curriculum vitae can be found [here](../assets/pdf/CV.pdf) (last updated September 2025.)
+My curriculum vitae can be found [here](../assets/pdf/CV.pdf) (last updated February 2026.)
