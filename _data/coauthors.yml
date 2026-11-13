@@ -68,3 +68,23 @@
 "Hollender":
   - firstname: ["Alexandros"]
     url: https://scholar.google.com/citations?user=m7PgjYwAAAAJ&hl=en
+
+"Chen":
+  - firstname: ["Xi"]
+    url: https://www.cs.columbia.edu/~xichen/
+
+"Li":
+  - firstname: ["Yuhao"]
+    url: https://yuhao.li/
+
+"Yannakakis":
+  - firstname: ["Mihalis"]
+    url: https://www.cs.columbia.edu/~mihalis/
+
+"Anand":
+  - firstname: ["Aditya"]
+    url: https://sites.google.com/view/aditya-anand17/home
+
+"Sharma":
+  - firstname: ["Amatya"]
+    url: https://aaysharma.github.io/
